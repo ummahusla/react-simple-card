@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react";
 
 const CardBody = ({ className = "", children }) => {
