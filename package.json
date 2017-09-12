@@ -1,0 +1,19 @@
+{
+  "name": "react-simple-card",
+  "version": "1.0.0",
+  "description": "Simple React card component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Card"
+  ],
+  "author": "Edvins Antonovs",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
