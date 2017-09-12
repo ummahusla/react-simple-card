@@ -2,4 +2,10 @@
 
 import React from "react";
 
-export default ({ children }) => <div className="card__header">{children}</div>;
+type CardHeader = {
+	children: any
+};
+
+export default ({ children }: CardHeader) => (
+	<div className="card__header">{children}</div>
+);

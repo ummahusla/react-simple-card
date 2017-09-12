@@ -2,4 +2,10 @@
 
 import React from "react";
 
-export default ({ children }) => <div className="card__footer">{children}</div>;
+type CardFooterProps = {
+	children: any
+};
+
+export default ({ children }: CardFooterProps) => (
+	<div className="card__footer">{children}</div>
+);

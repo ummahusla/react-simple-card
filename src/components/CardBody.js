@@ -2,7 +2,12 @@
 
 import React from "react";
 
-const CardBody = ({ className = "", children }) => {
+type CardBodyProps = {
+	children: any,
+	className?: string
+}
+
+const CardBody = ({ className = "", children }: CardBodyProps) => {
 	return <div className={`card__body ${className}`}>{children}</div>;
 };
 
