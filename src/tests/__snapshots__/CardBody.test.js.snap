@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardBody correctly 1`] = `
+<div
+  className="card__body "
+>
+  Integer euismod sollicitudin massa, non venenatis lectus semper nec.
+</div>
+`;

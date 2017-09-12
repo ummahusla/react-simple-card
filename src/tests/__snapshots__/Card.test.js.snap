@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Card correctly 1`] = `
+<div
+  className="card "
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;

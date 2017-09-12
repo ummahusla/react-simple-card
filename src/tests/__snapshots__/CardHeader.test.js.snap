@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardFooter correctly 1`] = `
+<div
+  className="card__footer"
+>
+  Quisque eget maximus tortor. Donec tortor est, placerat quis.
+</div>
+`;
