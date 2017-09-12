@@ -1,4 +1,6 @@
-export { default as Card } from "./Card";
-export { default as CardHeader } from "./CardHeader";
-export { default as CardBody } from "./CardBody";
-export { default as CardFooter } from "./CardFooter";
+// @flow
+
+export { default as Card } from "./components/Card";
+export { default as CardHeader } from "./components/CardHeader";
+export { default as CardBody } from "./components/CardBody";
+export { default as CardFooter } from "./components/CardFooter";
