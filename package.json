@@ -4,7 +4,7 @@
   "description": "Simple React card component",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "React",
@@ -13,7 +13,17 @@
   "author": "Edvins Antonovs",
   "license": "MIT",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "jest": "^21.0.2",
+    "react-test-renderer": "^15.6.1"
   }
 }
