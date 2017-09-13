@@ -3,7 +3,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
-import CardBody from "../components/CardBody";
+import CardBody from "../src/components/CardBody";
 
 it("renders CardBody correctly", () => {
 	const wrapper = shallow(
