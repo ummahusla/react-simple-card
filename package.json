@@ -2,7 +2,7 @@
   "name": "react-simple-card",
   "version": "1.0.0",
   "description": "Simple React card component",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "flow": "flow",
@@ -18,7 +18,8 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "rollup": "^0.49.3"
   },
   "devDependencies": {
     "babel-jest": "^21.0.2",
