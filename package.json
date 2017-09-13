@@ -5,15 +5,17 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
-    "flow": "flow",
-    "build": "flow-remove-types src/ -d lib/",
-    "prepublish": "npm run build"
+    "flow": "flow"
   },
   "keywords": [
     "React",
     "Card"
   ],
   "author": "Edvins Antonovs",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ummahusla/react-simple-card.git"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
