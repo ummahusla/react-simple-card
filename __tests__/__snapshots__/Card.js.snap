@@ -3,6 +3,17 @@
 exports[`renders Card correctly 1`] = `
 <div
   className="card "
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "border": "1px solid #ccc",
+      "borderRadius": "4px",
+      "display": "block",
+      "marginBottom": "10px",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
 >
   Aliquam sodales risus ex, sit amet posuere magna interdum eget.
 </div>
