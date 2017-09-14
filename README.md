@@ -1,4 +1,5 @@
 # [WIP] React Simple Card
+[![Build Status](https://travis-ci.org/ummahusla/react-simple-card.svg?branch=master)](https://travis-ci.org/ummahusla/react-simple-card)
 
 // TODO
 
