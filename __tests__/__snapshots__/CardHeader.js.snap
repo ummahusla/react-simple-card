@@ -3,6 +3,15 @@
 exports[`renders CardFooter correctly 1`] = `
 <div
   className="card__footer"
+  style={
+    Object {
+      "alignItems": "center",
+      "borderTop": "1px solid #ccc",
+      "display": "flex",
+      "marginTop": "0",
+      "padding": "10px 18px",
+    }
+  }
 >
   Quisque eget maximus tortor. Donec tortor est, placerat quis.
 </div>

@@ -3,6 +3,11 @@
 exports[`renders CardBody correctly 1`] = `
 <div
   className="card__body "
+  style={
+    Object {
+      "padding": "18px",
+    }
+  }
 >
   Integer euismod sollicitudin massa, non venenatis lectus semper nec.
 </div>
