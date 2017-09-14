@@ -2,12 +2,13 @@
 	"name": "react-simple-card",
 	"version": "1.0.0",
 	"description": "Simple React card component",
+	"author": "Edvins Antonovs",
 	"main": "lib/index.js",
 	"scripts": {
 		"setup": "npm install && flow-typed install",
 		"flow": "flow",
 		"test": "jest",
-		"test-coverage": "jest --coverage",
+		"coverage": "node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
 		"prepublish": "npm run babel-prepublish && npm run flow-prepublish",
 		"babel-prepublish": "babel src/ -d lib",
 		"flow-prepublish": "flow-copy-source src lib"
@@ -19,7 +20,10 @@
 		"React",
 		"Card"
 	],
-	"author": "Edvins Antonovs",
+	"jest": {
+		"collectCoverage": true,
+		"coverageDirectory": "./coverage"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ummahusla/react-simple-card.git"
