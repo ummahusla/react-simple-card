@@ -11,7 +11,7 @@ npm install --save react-simple-card
 
 ## Usage
 
-```
+```js
 import React from "react";
 import { render } from "react-dom";
 import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
