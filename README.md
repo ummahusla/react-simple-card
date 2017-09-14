@@ -35,4 +35,4 @@ render(<App />, document.getElementById("root"));
 
 * `npm run setup` - Install all `npm` and `flow-typed` packages
 * `npm run flow` - Run static type checker
-* `npm run test` - Run all tests
+* `npm test` - Run all tests

@@ -7,6 +7,7 @@
 		"setup": "npm install && flow-typed install",
 		"flow": "flow",
 		"test": "jest",
+		"test-coverage": "jest --coverage",
 		"prepublish": "npm run babel-prepublish && npm run flow-prepublish",
 		"babel-prepublish": "babel src/ -d lib",
 		"flow-prepublish": "flow-copy-source src lib"
@@ -35,6 +36,7 @@
 		"babel-preset-env": "^1.6.0",
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
+		"coveralls": "^2.13.1",
 		"enzyme": "^2.9.1",
 		"enzyme-to-json": "^1.5.1",
 		"flow-bin": "^0.54.1",
