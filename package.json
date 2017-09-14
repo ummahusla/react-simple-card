@@ -1,6 +1,6 @@
 {
 	"name": "react-simple-card",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Simple React card component",
 	"author": "Edvins Antonovs",
 	"main": "lib/index.js",
