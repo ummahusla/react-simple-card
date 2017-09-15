@@ -13,3 +13,12 @@ it("renders CardFooter correctly", () => {
 	);
 	expect(toJson(wrapper)).toMatchSnapshot();
 });
+
+it("renders CardFooter correctly with extra styles", () => {
+	const wrapper = shallow(
+		<CardFooter style={{ color: "white" }}>
+			Vestibulum mollis elit nec leo venenatis, nec elementum nunc.
+		</CardFooter>
+	);
+	expect(toJson(wrapper)).toMatchSnapshot();
+});

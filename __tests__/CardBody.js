@@ -13,3 +13,12 @@ it("renders CardBody correctly", () => {
 	);
 	expect(toJson(wrapper)).toMatchSnapshot();
 });
+
+it("renders CardBody correctly with extra styles", () => {
+	const wrapper = shallow(
+		<CardBody style={{ color: "red" }}>
+			Integer euismod sollicitudin massa, non venenatis lectus semper nec.
+		</CardBody>
+	);
+	expect(toJson(wrapper)).toMatchSnapshot();
+});

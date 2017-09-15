@@ -3,13 +3,22 @@
 import React from "react";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
-import CardFooter from "../src/components/CardFooter";
+import CardHeader from "../src/components/CardHeader";
 
-it("renders CardFooter correctly", () => {
+it("renders CardHeader correctly", () => {
 	const wrapper = shallow(
-		<CardFooter>
+		<CardHeader>
 			Quisque eget maximus tortor. Donec tortor est, placerat quis.
-		</CardFooter>
+		</CardHeader>
+	);
+	expect(toJson(wrapper)).toMatchSnapshot();
+});
+
+it("renders CardHeader correctly with extra styles", () => {
+	const wrapper = shallow(
+		<CardHeader style={{ backgroundColor: "green" }}>
+			Quisque eget maximus tortor. Donec tortor est, placerat quis.
+		</CardHeader>
 	);
 	expect(toJson(wrapper)).toMatchSnapshot();
 });
