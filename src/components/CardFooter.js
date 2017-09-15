@@ -8,12 +8,14 @@ type CardFooterProps = {
 
 const styles = {
 	display: "flex",
-  alignItems: "center",
+	alignItems: "center",
 	padding: "10px 18px",
 	borderTop: "1px solid #ccc",
 	marginTop: "0"
-}
+};
 
 export default ({ children }: CardFooterProps) => (
-	<div className="card__footer" style={styles}>{children}</div>
+	<div className="card__footer" style={styles}>
+		{children}
+	</div>
 );
