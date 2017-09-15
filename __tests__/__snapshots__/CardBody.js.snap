@@ -12,3 +12,17 @@ exports[`renders CardBody correctly 1`] = `
   Integer euismod sollicitudin massa, non venenatis lectus semper nec.
 </div>
 `;
+
+exports[`renders CardBody correctly with extra styles 1`] = `
+<div
+  className="card__body "
+  style={
+    Object {
+      "color": "red",
+      "padding": "18px",
+    }
+  }
+>
+  Integer euismod sollicitudin massa, non venenatis lectus semper nec.
+</div>
+`;

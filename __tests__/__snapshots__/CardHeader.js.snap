@@ -1,14 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders CardFooter correctly 1`] = `
+exports[`renders CardHeader correctly 1`] = `
 <div
-  className="card__footer"
+  className="card__header"
   style={
     Object {
       "alignItems": "center",
-      "borderTop": "1px solid #ccc",
+      "borderBottom": "1px solid #ccc",
       "display": "flex",
-      "marginTop": "0",
+      "marginBottom": "0",
+      "padding": "10px 18px",
+    }
+  }
+>
+  Quisque eget maximus tortor. Donec tortor est, placerat quis.
+</div>
+`;
+
+exports[`renders CardHeader correctly with extra styles 1`] = `
+<div
+  className="card__header"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "green",
+      "borderBottom": "1px solid #ccc",
+      "display": "flex",
+      "marginBottom": "0",
       "padding": "10px 18px",
     }
   }

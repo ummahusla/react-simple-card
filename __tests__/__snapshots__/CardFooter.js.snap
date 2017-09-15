@@ -16,3 +16,21 @@ exports[`renders CardFooter correctly 1`] = `
   Vestibulum mollis elit nec leo venenatis, nec elementum nunc.
 </div>
 `;
+
+exports[`renders CardFooter correctly with extra styles 1`] = `
+<div
+  className="card__footer"
+  style={
+    Object {
+      "alignItems": "center",
+      "borderTop": "1px solid #ccc",
+      "color": "white",
+      "display": "flex",
+      "marginTop": "0",
+      "padding": "10px 18px",
+    }
+  }
+>
+  Vestibulum mollis elit nec leo venenatis, nec elementum nunc.
+</div>
+`;
