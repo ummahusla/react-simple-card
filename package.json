@@ -1,6 +1,6 @@
 {
 	"name": "react-simple-card",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Simple React card component",
 	"author": "Edvins Antonovs",
 	"main": "lib/index.js",
@@ -37,6 +37,7 @@
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
 		"babel-jest": "^21.0.2",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-env": "^1.6.0",
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
