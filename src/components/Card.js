@@ -4,10 +4,11 @@ import React from "react";
 
 type CardProps = {
 	children: any,
+	style?: any,
 	className?: string
 };
 
-const styles = {
+const defaultStyles = {
 	width: "100%",
 	display: "block",
 	position: "relative",
@@ -17,7 +18,8 @@ const styles = {
 	border: "1px solid #ccc"
 };
 
-export default ({ className = "", children }: CardProps) => {
+export default ({ className = "", style, children }: CardProps) => {
+	const styles = { ...defaultStyles, ...style };
 	return (
 		<div className={`card ${className}`} style={styles}>
 			{children}

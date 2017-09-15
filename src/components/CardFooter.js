@@ -3,10 +3,11 @@
 import React from "react";
 
 type CardFooterProps = {
-	children: any
+	children: any,
+	style?: any
 };
 
-const styles = {
+const defaultStyles = {
 	display: "flex",
 	alignItems: "center",
 	padding: "10px 18px",
@@ -14,8 +15,11 @@ const styles = {
 	marginTop: "0"
 };
 
-export default ({ children }: CardFooterProps) => (
-	<div className="card__footer" style={styles}>
-		{children}
-	</div>
-);
+export default ({ style, children }: CardFooterProps) => {
+	const styles = { ...defaultStyles, ...style };
+	return (
+		<div className="card__footer" style={styles}>
+			{children}
+		</div>
+	);
+};
