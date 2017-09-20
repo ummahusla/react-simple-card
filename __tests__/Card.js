@@ -20,3 +20,21 @@ it("renders Card correctly with extra styles", () => {
 	);
 	expect(toJson(wrapper)).toMatchSnapshot();
 });
+
+it("renders Card correctly with black background color", () => {
+	const wrapper = shallow(
+		<Card bgColor="#000">
+			Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+		</Card>
+	);
+	expect(toJson(wrapper)).toMatchSnapshot();
+});
+
+it("renders Card correctly with blue font style", () => {
+	const wrapper = shallow(
+		<Card fontColor="blue">
+			Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+		</Card>
+	);
+	expect(toJson(wrapper)).toMatchSnapshot();
+});

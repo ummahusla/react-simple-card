@@ -1,5 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders Card correctly with black background color 1`] = `
+<div
+  className="card "
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "border": "1px solid #ccc",
+      "borderRadius": "4px",
+      "color": "#000",
+      "display": "block",
+      "marginBottom": "10px",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;
+
+exports[`renders Card correctly with blue font style 1`] = `
+<div
+  className="card "
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "border": "1px solid #ccc",
+      "borderRadius": "4px",
+      "color": "blue",
+      "display": "block",
+      "marginBottom": "10px",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;
+
 exports[`renders Card correctly with default styles 1`] = `
 <div
   className="card "
@@ -8,6 +48,7 @@ exports[`renders Card correctly with default styles 1`] = `
       "backgroundColor": "#fff",
       "border": "1px solid #ccc",
       "borderRadius": "4px",
+      "color": "#000",
       "display": "block",
       "marginBottom": "10px",
       "position": "relative",
@@ -27,6 +68,7 @@ exports[`renders Card correctly with extra styles 1`] = `
       "backgroundColor": "#fff",
       "border": "1px solid #ccc",
       "borderRadius": "4px",
+      "color": "#000",
       "display": "block",
       "marginBottom": "10px",
       "minHeight": "100px",
