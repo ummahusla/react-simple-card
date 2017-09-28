@@ -40,7 +40,7 @@ render(<App />, document.getElementById("root"));
 
 ## Examples
 
-All examples can be found [**here**](https://github.com/ummahusla/react-simple-card/issues/7) or in [**/examples**](/examples) folder.
+All examples can be found [in this issue](https://github.com/ummahusla/react-simple-card/issues/7) or in [`/examples`](/examples) folder.
 
 ## Development
 
@@ -51,7 +51,7 @@ All examples can be found [**here**](https://github.com/ummahusla/react-simple-c
 
 ## Contributing
 
-Please check [**Contributing.md**](CONTRIBUTING.md) to get started.
+Please check [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ## License
 
