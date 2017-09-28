@@ -51,7 +51,7 @@ All examples can be found [**here**](https://github.com/ummahusla/react-simple-c
 
 ## Contributing
 
-Please check [**Contributing.md**](Contributing.md) to get started
+Please check [**Contributing.md**](CONTRIBUTING.md) to get started.
 
 ## License
 
