@@ -1,15 +1,26 @@
 # React Simple Card
 [![Build Status](https://travis-ci.org/ummahusla/react-simple-card.svg?branch=master)](https://travis-ci.org/ummahusla/react-simple-card) [![Coverage Status](https://coveralls.io/repos/github/ummahusla/react-simple-card/badge.svg?branch=master)](https://coveralls.io/github/ummahusla/react-simple-card?branch=master)
 
-Simple React Card component
+Simple, easy to use and flexible cards in React.
 
-## Install
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Development](#development)
+- [Contributing](#contributing)
+
+## Installation
 
 ```
 npm install --save react-simple-card
 ```
 
 ## Usage
+
+The simplest example
 
 ```js
 import React from "react";
