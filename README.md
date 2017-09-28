@@ -29,7 +29,7 @@ render(<App />, document.getElementById("root"));
 
 ## Examples
 
-At the moment, all examples can be found [**here**](https://github.com/ummahusla/react-simple-card/issues/7).
+All examples can be found [**here**](https://github.com/ummahusla/react-simple-card/issues/7) or in [**/examples**](/examples) folder.
 
 ## Development
 
@@ -40,7 +40,7 @@ At the moment, all examples can be found [**here**](https://github.com/ummahusla
 
 ## Contributing
 
-At the moment the component is still in development, but if you want to contribute you can do it by reviewing issues with [`help-wanted`](https://github.com/ummahusla/react-simple-card/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) label.
+Please check [**Contributing.md**](Contributing.md) to get started
 
 ## License
 
