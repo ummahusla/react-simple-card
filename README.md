@@ -40,7 +40,12 @@ render(<App />, document.getElementById("root"));
 
 ## Examples
 
-All examples can be found [in this issue](https://github.com/ummahusla/react-simple-card/issues/7) or in [`/examples`](/examples) folder.
+- [**Basic layout**](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
+- [**Basic layout with Image header instead**](https://codesandbox.io/s/k2kwznw6qv) - `Card`, `ImageHeader`, `CardBody`, `CardFooter` 
+- [**Without header**](https://codesandbox.io/s/zqk7jvrnym) - `Card`, `CardBody`, `CardFooter` 
+- [**Body only**](https://codesandbox.io/s/vnlxr3l6j0) - `Card`, `CardBody`
+
+Alternatively, you can find examples in [`/examples`](/examples) folder.
 
 ## Development
 
@@ -57,4 +62,4 @@ Please check [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 MIT License
 
-Copyright (c) 2017 [Edvins Antonovs](https://twitter.com/edvinsantonovs)
+Copyright (c) 2017 [Edvins Antonovs](https://twitter.com/edvinsantonovs).
