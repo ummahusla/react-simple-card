@@ -6,6 +6,10 @@
     ],
     "rules": {
         "react/jsx-filename-extension": "off",
-        "react/require-default-props": "off"
+        "react/require-default-props": "off",
+        "quotes": ["error", "double"],
+        "indent": ["error", "tab"],
+        "react/jsx-indent": ["error", "tab"],
+        "no-tabs": 0
     }
 }
