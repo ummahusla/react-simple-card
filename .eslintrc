@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": "off",
+        "react/require-default-props": "off"
+    }
+}

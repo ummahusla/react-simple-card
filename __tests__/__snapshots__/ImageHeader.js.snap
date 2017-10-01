@@ -10,6 +10,7 @@ exports[`renders ImageHeader correctly 1`] = `
   }
 >
   <img
+    alt=""
     src="http://via.placeholder.com/350x200"
     style={
       Object {
