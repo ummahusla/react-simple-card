@@ -8,8 +8,8 @@
         "react/jsx-filename-extension": "off",
         "react/require-default-props": "off",
         "quotes": ["error", "double"],
-        "indent": ["error", "tab"],
-        "react/jsx-indent": ["error", "tab"],
+        "indent": ["error", 2],
+        "react/jsx-indent": ["error", 2],
         "no-tabs": 0
     }
 }
