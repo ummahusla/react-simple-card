@@ -10,6 +10,7 @@
         "quotes": ["error", "double"],
         "indent": ["error", 2],
         "react/jsx-indent": ["error", 2],
-        "no-tabs": 0
+        "no-tabs": 0,
+        "comma-dangle": ["error", "never"]
     }
 }

@@ -9,7 +9,7 @@ type CardBodyProps = {
 };
 
 const defaultStyles = {
-  padding: "18px",
+  padding: "18px"
 };
 
 export default ({ className = "", style, children }: CardBodyProps) => {

@@ -5,7 +5,7 @@ exports[`renders ImageHeader correctly 1`] = `
   className="card__header--image"
   style={
     Object {
-      "possition": "relative",
+      "position": "relative",
     }
   }
 >

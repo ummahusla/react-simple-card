@@ -16,7 +16,7 @@ const defaultStyles = {
   position: "relative",
   borderRadius: "4px",
   marginBottom: "10px",
-  border: "1px solid #ccc",
+  border: "1px solid #ccc"
 };
 
 export default ({
@@ -24,13 +24,13 @@ export default ({
   bgColor = "#fff",
   fontColor = "#000",
   style,
-  children,
+  children
 }: CardProps) => {
   const styles = {
     ...defaultStyles,
     ...style,
     backgroundColor: bgColor,
-    color: fontColor,
+    color: fontColor
   };
   return (
     <div className={`card ${className}`} style={styles}>

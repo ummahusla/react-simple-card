@@ -12,7 +12,7 @@ const defaultStyles = {
   alignItems: "center",
   padding: "10px 18px",
   borderTop: "1px solid #ccc",
-  marginTop: "0",
+  marginTop: "0"
 };
 
 export default ({ style, children }: CardFooterProps) => {

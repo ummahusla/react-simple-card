@@ -12,7 +12,7 @@ const defaultStyles = {
   alignItems: "center",
   padding: "10px 18px",
   borderBottom: "1px solid #ccc",
-  marginBottom: "0",
+  marginBottom: "0"
 };
 
 export default ({ style, children }: CardHeaderProps) => {
