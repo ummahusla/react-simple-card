@@ -38,6 +38,20 @@ const App = () => (
 render(<App />, document.getElementById("root"));
 ```
 
+## Usable properties
+
+### `Card`
+
+
+| Property | Type | Default | Description
+:---|:---|:---|:---
+| `children` | Function | | Todo: add description  |
+| `bgColor` | String | #fff | Todo: add description |
+| `fontColor` | String | #000 | Todo: add description  |
+| `style` | Object | | Todo: add description  |
+| `className`| String | undefined | Todo: add description |
+
+
 ## Examples
 
 - [**Basic layout**](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
