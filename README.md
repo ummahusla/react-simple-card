@@ -46,8 +46,8 @@ render(<App />, document.getElementById("root"));
 | Property | Type | Default | Description
 :---|:---|:---|:---
 | `children` | Function | | Todo: add description  |
-| `bgColor` | String | #fff | Allows you change the defaul `white` background to a specific color. |
-| `fontColor` | String | #000 | Todo: add description  |
+| `bgColor` | String | #fff | Allows you to change the default `white` background to a specific color. |
+| `fontColor` | String | #000 | Allows you to change the default `black` font color to a specific color. |
 | `style` | Object | | Todo: add description  |
 | `className`| String | undefined | Todo: add description |
 
