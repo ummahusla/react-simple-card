@@ -38,6 +38,20 @@ const App = () => (
 render(<App />, document.getElementById("root"));
 ```
 
+## Usable properties
+
+### `Card`
+
+
+| Property | Type | Description
+:---|:---|:---
+| `children` | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>` |
+| `bgColor` | String | Allows to change the default `#fff` background. |
+| `fontColor` | String | Allows to change the default `#000` font color by passing a new value . |
+| `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+| `className`| String | Allows to pass extra class names to the component. |
+
+
 ## Examples
 
 - [**Basic layout**](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
