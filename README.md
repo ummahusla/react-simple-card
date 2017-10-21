@@ -47,17 +47,17 @@ render(<App />, document.getElementById("root"));
 :---|:---|:---
 | `children` | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>` |
 | `bgColor` | String | Allows to change the default `#fff` background. |
-| `fontColor` | String | Allows to change the default `#000` font color by passing a new value . |
+| `fontColor` | String | Allows to change the default `#000` font color by passing a new value. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
 
 
 ## Examples
 
-- [**Basic layout**](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
-- [**Basic layout with Image header instead**](https://codesandbox.io/s/k2kwznw6qv) - `Card`, `ImageHeader`, `CardBody`, `CardFooter` 
-- [**Without header**](https://codesandbox.io/s/zqk7jvrnym) - `Card`, `CardBody`, `CardFooter` 
-- [**Body only**](https://codesandbox.io/s/vnlxr3l6j0) - `Card`, `CardBody`
+- [Basic layout](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
+- [Basic layout with Image header instead](https://codesandbox.io/s/k2kwznw6qv) - `Card`, `ImageHeader`, `CardBody`, `CardFooter` 
+- [Without header](https://codesandbox.io/s/zqk7jvrnym) - `Card`, `CardBody`, `CardFooter` 
+- [Body only](https://codesandbox.io/s/vnlxr3l6j0) - `Card`, `CardBody`
 
 Alternatively, you can find examples in [`/examples`](/examples) folder.
 
