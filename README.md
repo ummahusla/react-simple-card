@@ -51,6 +51,13 @@ render(<App />, document.getElementById("root"));
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
 
+### `<CardHeader>`
+
+| Property | Type | Description
+:---|:---|:---
+| `children` | Function | Allows to render child elements inside the <CardBody> component. Great place to place inner components there. |
+| `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+
 ### `<CardBody>`
 
 | Property | Type | Description
@@ -58,7 +65,6 @@ render(<App />, document.getElementById("root"));
 | `children` | Function | Allows to render child elements inside the <CardBody> component. Great place to place inner components there. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
-
 
 ## Examples
 
