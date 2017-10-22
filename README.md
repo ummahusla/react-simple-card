@@ -45,7 +45,7 @@ render(<App />, document.getElementById("root"));
 
 | Property | Type | Description
 :---|:---|:---
-| `children` | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>` |
+| `children` | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>`. |
 | `bgColor` | String | Allows to change the default `#fff` background. |
 | `fontColor` | String | Allows to change the default `#000` font color by passing a new value. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
@@ -55,14 +55,21 @@ render(<App />, document.getElementById("root"));
 
 | Property | Type | Description
 :---|:---|:---
-| `children` | Function | Allows to render child elements inside the <CardBody> component. Great place to place inner components there. |
+| `children` | Function | Allows to render child elements inside the `<CardHeader>` component. Perfect section to place `<h1>`, `<h2>`, `<h3>`, etc tags.|
+| `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+  
+### `<ImageHeader>`
+
+| Property | Type | Description
+:---|:---|:---
+| `imageSrc` | String | Allows to pass the image URL which will be rendered inside the component. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 
 ### `<CardBody>`
 
 | Property | Type | Description
 :---|:---|:---
-| `children` | Function | Allows to render child elements inside the <CardBody> component. Great place to place inner components there. |
+| `children` | Function | Allows to render child elements inside the <CardBody> component. Good idea to use it to pass inner components. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
 
