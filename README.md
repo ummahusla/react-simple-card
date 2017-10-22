@@ -40,7 +40,7 @@ render(<App />, document.getElementById("root"));
 
 ## Usable properties
 
-### `Card`
+### `<Card>`
 
 
 | Property | Type | Description
@@ -48,6 +48,14 @@ render(<App />, document.getElementById("root"));
 | `children` | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>` |
 | `bgColor` | String | Allows to change the default `#fff` background. |
 | `fontColor` | String | Allows to change the default `#000` font color by passing a new value. |
+| `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+| `className`| String | Allows to pass extra class names to the component. |
+
+### `<CardBody>`
+
+| Property | Type | Description
+:---|:---|:---
+| `children` | Function | Allows to render child elements inside the <CardBody> component. Great place to place inner components there. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
 
