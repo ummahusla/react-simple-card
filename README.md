@@ -20,7 +20,7 @@ npm install --save react-simple-card
 
 ## Usage
 
-The simplest example
+The simplest example.
 
 ```js
 import React from "react";
@@ -37,6 +37,25 @@ const App = () => (
 
 render(<App />, document.getElementById("root"));
 ```
+
+The simplest example with the `<ImageHeader>` instead of `<CardHeader>`.
+
+```js
+import React from "react";
+import { render } from "react-dom";
+import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
+
+const App = () => (
+  <Card>
+    <ImageHeader imageSrc="http://via.placeholder.com/600x250" />
+    <CardBody>Body</CardBody>
+    <CardFooter>Footer</CardFooter>
+  </Card>
+);
+
+render(<App />, document.getElementById("root"));
+```
+
 
 ## Usable properties
 
