@@ -72,6 +72,13 @@ render(<App />, document.getElementById("root"));
 | `children` | Function | Allows to render child elements inside the <CardBody> component. Good idea to use it to pass inner components. |
 | `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 | `className`| String | Allows to pass extra class names to the component. |
+  
+### `<CardFooter>`
+
+| Property | Type | Description
+:---|:---|:---
+| `children` | Function | Allows to render child elements inside the <CardFooter> component. |
+| `style` | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
 
 ## Examples
 
