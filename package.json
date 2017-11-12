@@ -1,6 +1,6 @@
 {
 	"name": "react-simple-card",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "Simple React card component",
 	"author": "Edvins Antonovs",
 	"main": "lib/index.js",
@@ -8,19 +8,15 @@
 		"setup": "npm install && flow-typed install",
 		"flow": "flow",
 		"test": "jest",
-		"coverage": "node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+		"coverage":
+			"node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
 		"prepublish": "npm run babel-prepublish && npm run flow-prepublish",
 		"babel-prepublish": "babel src/ -d lib",
 		"flow-prepublish": "flow-copy-source src lib",
 		"lint": "./node_modules/.bin/eslint ./src"
 	},
-	"files": [
-		"lib"
-	],
-	"keywords": [
-		"React",
-		"Card"
-	],
+	"files": ["lib"],
+	"keywords": ["React", "Card"],
 	"jest": {
 		"collectCoverage": true,
 		"coverageDirectory": "./coverage"
