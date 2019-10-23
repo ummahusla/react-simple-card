@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ImageHeader correctly 1`] = `
+<div
+  className="card__header--image"
+>
+  <img
+    alt=""
+    src="http://via.placeholder.com/350x200"
+  />
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Card correctly with black background color 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "color": "#000",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;
+
+exports[`renders Card correctly with blue font style 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "blue",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;
+
+exports[`renders Card correctly with default styles 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;
+
+exports[`renders Card correctly with extra styles 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+      "minHeight": "100px",
+    }
+  }
+>
+  Aliquam sodales risus ex, sit amet posuere magna interdum eget.
+</div>
+`;

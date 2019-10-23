@@ -1,0 +1,14 @@
+.card__header--image {
+    position: relative;
+
+    img {
+        display: block;
+        width: 100%;
+        border-radius: 2px 2px 0 0;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}

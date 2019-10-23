@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardBody correctly 1`] = `
+<div
+  className="card__body"
+>
+  Integer euismod sollicitudin massa, non venenatis lectus semper nec.
+</div>
+`;
+
+exports[`renders CardBody correctly with extra styles 1`] = `
+<div
+  className="card__body"
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  Integer euismod sollicitudin massa, non venenatis lectus semper nec.
+</div>
+`;

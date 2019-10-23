@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardHeader correctly 1`] = `
+<div
+  className="card__header"
+>
+  Quisque eget maximus tortor. Donec tortor est, placerat quis.
+</div>
+`;
+
+exports[`renders CardHeader correctly with extra styles 1`] = `
+<div
+  className="card__header"
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+>
+  Quisque eget maximus tortor. Donec tortor est, placerat quis.
+</div>
+`;

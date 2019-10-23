@@ -1,31 +1,104 @@
-# react-simple-card
+# React Simple Card
 
-> Simple React card component
+[![Build Status](https://travis-ci.org/ummahusla/react-simple-card.svg?branch=master)](https://travis-ci.org/ummahusla/react-simple-card) [![Coverage Status](https://coveralls.io/repos/github/ummahusla/react-simple-card/badge.svg?branch=master)](https://coveralls.io/github/ummahusla/react-simple-card?branch=master)
 
-[![NPM](https://img.shields.io/npm/v/react-simple-card.svg)](https://www.npmjs.com/package/react-simple-card) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Simple, easy to use and flexible cards in React.
 
-## Install
+## Table of Contents
 
-```bash
+-   [Installation](#installation)
+-   [Usage](#usage)
+
+## Installation
+
+```
 npm install --save react-simple-card
 ```
 
 ## Usage
 
-```tsx
-import * as React from 'react'
+The simplest example.
 
-import MyComponent from 'react-simple-card'
+```js
+import React from 'react';
+import { render } from 'react-dom';
+import { Card, CardHeader, CardBody, CardFooter } from 'react-simple-card';
 
-class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+const App = () => (
+    <Card>
+        <CardHeader>Header</CardHeader>
+        <CardBody>Body</CardBody>
+        <CardFooter>Footer</CardFooter>
+    </Card>
+);
+
+render(<App />, document.getElementById('root'));
 ```
+
+The simplest example with the `<ImageHeader>` instead of `<CardHeader>`.
+
+```js
+import React from 'react';
+import { render } from 'react-dom';
+import { Card, CardHeader, CardBody, CardFooter } from 'react-simple-card';
+
+const App = () => (
+    <Card>
+        <ImageHeader imageSrc="http://via.placeholder.com/600x250" />
+        <CardBody>Body</CardBody>
+        <CardFooter>Footer</CardFooter>
+    </Card>
+);
+
+render(<App />, document.getElementById('root'));
+```
+
+## Usable properties
+
+### `<Card>`
+
+| Property    | Type     | Description                                                                                                                                        |
+| :---------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `children`  | Function | Allows to nest any components inside `<Card>` component. This is the place where to `<CardHeader>`, `<ImageHeader>`, `<CardBody>`, `<CardFooter>`. |
+| `bgColor`   | String   | Allows to change the default `#fff` background.                                                                                                    |
+| `fontColor` | String   | Allows to change the default `#000` font color by passing a new value.                                                                             |
+| `style`     | Object   | Allows to pass an object of CSS styles, to update or overwrite the default ones.                                                                   |
+| `className` | String   | Allows to pass extra class names to the component.                                                                                                 |
+
+### `<CardHeader>`
+
+| Property    | Type     | Description                                                                                                                     |
+| :---------- | :------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| `children`  | Function | Allows to render child elements inside the `<CardHeader>` component. Perfect section to place `<h1>`, `<h2>`, `<h3>`, etc tags. |
+| `style`     | Object   | Allows to pass an object of CSS styles, to update or overwrite the default ones.                                                |
+| `className` | String   | Allows to pass extra class names to the component.                                                                              |
+
+### `<ImageHeader>`
+
+| Property    | Type   | Description                                                                      |
+| :---------- | :----- | :------------------------------------------------------------------------------- |
+| `imageSrc`  | String | Allows to pass the image URL which will be rendered inside the component.        |
+| `style`     | Object | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+| `className` | String | Allows to pass extra class names to the component.                               |
+
+### `<CardBody>`
+
+| Property    | Type     | Description                                                                                                    |
+| :---------- | :------- | :------------------------------------------------------------------------------------------------------------- |
+| `children`  | Function | Allows to render child elements inside the <CardBody> component. Good idea to use it to pass inner components. |
+| `style`     | Object   | Allows to pass an object of CSS styles, to update or overwrite the default ones.                               |
+| `className` | String   | Allows to pass extra class names to the component.                                                             |
+
+### `<CardFooter>`
+
+| Property    | Type     | Description                                                                      |
+| :---------- | :------- | :------------------------------------------------------------------------------- |
+| `children`  | Function | Allows to render child elements inside the <CardFooter> component.               |
+| `style`     | Object   | Allows to pass an object of CSS styles, to update or overwrite the default ones. |
+| `className` | String   | Allows to pass extra class names to the component.                               |
 
 ## License
 
-MIT © [ummahusla](https://github.com/ummahusla)
+MIT License
+
+Copyright (c) 2018 [Edvins Antonovs](https://twitter.com/edvinsantonovs).
