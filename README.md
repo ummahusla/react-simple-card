@@ -101,4 +101,4 @@ render(<App />, document.getElementById('root'));
 
 MIT License
 
-Copyright (c) 2018 [Edvins Antonovs](https://twitter.com/edvinsantonovs).
+Copyright (c) 2019 [Edvins Antonovs](https://twitter.com/edvinsantonovs).

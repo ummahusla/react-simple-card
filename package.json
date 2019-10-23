@@ -12,6 +12,10 @@
         "node": ">=8",
         "npm": ">=5"
     },
+    "keywords": [
+        "react",
+        "card"
+    ],
     "scripts": {
         "test": "react-scripts-ts test --env=jsdom",
         "coverage": "react-scripts-ts test --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
