@@ -8,6 +8,8 @@ Simple, easy to use and flexible cards in React.
 
 -   [Installation](#installation)
 -   [Usage](#usage)
+-   [Examples](#examples)
+-   [Properties](#properties)
 
 ## Installation
 
@@ -53,7 +55,14 @@ const App = () => (
 render(<App />, document.getElementById('root'));
 ```
 
-## Usable properties
+## Examples
+
+- [**Basic layout**](https://codesandbox.io/s/611monz7qz) - `Card`, `CardHeader`, `CardBody`, `CardFooter` 
+- [**Basic layout with Image header instead**](https://codesandbox.io/s/k2kwznw6qv) - `Card`, `ImageHeader`, `CardBody`, `CardFooter` 
+- [**Without header**](https://codesandbox.io/s/zqk7jvrnym) - `Card`, `CardBody`, `CardFooter` 
+- [**Body only**](https://codesandbox.io/s/vnlxr3l6j0) - `Card`, `CardBody`
+
+## Properties
 
 ### `<Card>`
 
