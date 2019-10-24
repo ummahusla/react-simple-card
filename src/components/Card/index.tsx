@@ -23,6 +23,7 @@ export default ({
         backgroundColor: bgColor,
         color: fontColor
     };
+
     return (
         <div className={classNames('card', className)} style={styles}>
             {children}
