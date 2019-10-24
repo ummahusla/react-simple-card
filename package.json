@@ -1,6 +1,6 @@
 {
     "name": "react-simple-card",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Simple React card component",
     "author": "ummahusla",
     "license": "MIT",
@@ -18,12 +18,19 @@
     ],
     "scripts": {
         "test": "react-scripts-ts test --env=jsdom",
-        "coverage": "react-scripts-ts test --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+        "coverage": "CI=true react-scripts-ts test --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
         "build": "rollup -c",
         "start": "rollup -c -w",
         "prepare": "yarn run build",
         "predeploy": "cd example && yarn install && yarn run build",
         "deploy": "npm publish"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.{tsx}",
+            "!/node_modules/",
+            "!src/index.tsx"
+        ]
     },
     "peerDependencies": {
         "prop-types": "^15.5.4",

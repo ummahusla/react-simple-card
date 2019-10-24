@@ -10,10 +10,8 @@ export type ImageHeaderProps = {
     className?: string;
 };
 
-export default ({ className, style, imageSrc, alt = '' }: ImageHeaderProps) => {
-    return (
-        <div className={classNames('card__header--image', className)} style={style}>
-            <img src={imageSrc} alt={alt} />
-        </div>
-    );
-};
+export default ({ className, style, imageSrc, alt = '' }: ImageHeaderProps) => (
+    <div className={classNames('card__header--image', className)} style={style}>
+        <img src={imageSrc} alt={alt} />
+    </div>
+);
