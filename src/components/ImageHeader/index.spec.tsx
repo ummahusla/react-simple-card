@@ -11,6 +11,11 @@ it('renders ImageHeader correctly', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
 });
 
+it('renders ImageHeader correctly without alt', () => {
+    const wrapper = shallow(<ImageHeader imageSrc="http://via.placeholder.com/350x200" />);
+    expect(toJson(wrapper)).toMatchSnapshot();
+});
+
 it('renders ImageHeader correctly with className and extra styles', () => {
     const wrapper = shallow(
         <ImageHeader
