@@ -7,7 +7,7 @@ export type CardProps = {
     children: React.ReactNode;
     bgColor?: string;
     fontColor?: string;
-    style?: any;
+    style?: React.CSSProperties;
     className?: string;
 };
 

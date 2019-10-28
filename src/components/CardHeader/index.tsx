@@ -5,7 +5,7 @@ import './styles.scss';
 
 export type CardHeaderProps = {
     children: React.ReactNode;
-    style?: any;
+    style?: React.CSSProperties;
     className?: string;
 };
 

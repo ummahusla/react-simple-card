@@ -6,7 +6,7 @@ import './styles.scss';
 export type ImageHeaderProps = {
     imageSrc: string;
     alt?: string;
-    style?: any;
+    style?: React.CSSProperties;
     className?: string;
 };
 
