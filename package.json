@@ -56,7 +56,7 @@
         "enzyme": "^3.10.0",
         "enzyme-adapter-react-16": "^1.15.1",
         "enzyme-to-json": "^3.4.3",
-        "node-sass": "^4.12.0",
+        "node-sass": "^7.0.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "react-scripts-ts": "^4.0.8",
